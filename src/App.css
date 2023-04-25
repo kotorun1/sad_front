@@ -1,0 +1,16 @@
+.rotate:active{
+  animation: rotates 2s infinite;
+}
+.loader{
+  animation: rotates 2s infinite;
+  color: Blue;
+  width: 100px
+}
+@keyframes rotates {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
